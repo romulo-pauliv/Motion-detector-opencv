@@ -76,7 +76,7 @@ def csvMotionDetection():
             entry = line.split(",")
             nameList.append(entry[0])
         now = datetime.now()
-        dt = now.strftime('%d/%M/%Y-%H:%M:%S')
+        dt = now.strftime('%d/%m/%Y-%H:%M:%S')
         f.writelines(f'\nMotion Detection, {dt}')
 # code ----------------------------------------------------------------------------------------------------------------|
 
